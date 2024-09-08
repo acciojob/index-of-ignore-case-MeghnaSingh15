@@ -1,8 +1,11 @@
 function indexOfIgnoreCase(s1, s2) {
-	let str = s1.toLowerCase();
-	let substr = s2.toLowerCase();
-	return str.indexOf(s2);
+	const lowerStr = s1.toLowerCase();
+    const lowerSubStr = s2.toLowerCase();
+    
+
+    return lowerStr.indexOf(lowerSubStr);
 }
+
 
 // Please do not change the code below
 
